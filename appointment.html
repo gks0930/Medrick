@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assests/logo.jpg">
+    <title>Medrick - Book Appointment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="prevention-tips.html">Prevention Tips</a></li>
+                <li><a href="appointment.html">Book Appointment</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="form-section">
+        <form onsubmit="return validateForm()">
+            <h2>Book an Appointment</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            
+            <label for="date">Preferred Date:</label>
+            <input type="date" id="date" name="date">
+            
+            <input type="submit" value="Book Appointment">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Medrick. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
